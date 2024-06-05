@@ -23,6 +23,8 @@ functions:
 3. find (R, S, vary): given range R, budget S and y's variance vary, find a truncated Gaussian N(mu, std) in the range [0, R] such that (1) its second moment is less than S and (2) its entropy is the smallest.
 4.experiment1 (R, S, mu, vary): this experiment verifies that given mu, the objective function reduces with std.
 
+HRDP_positive.m captures the computation of hbrid Renyi DP for positive noise under composition. 
+
 
 
 
